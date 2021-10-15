@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(109, 131, 131);
+}
+p{
+    margin: auto;
+    height: 30px;
+    width: 50px;
+    background-color: rgb(255, 187, 0);
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    position: absolute;
+    top: -250px;
+    left: auto;
+    cursor: default;
+    border-radius: 25px;
+}
+span{
+    font-size: 30px;
+    color:black ;
+    opacity: 0;
+}
+
+button{
+    display: block;
+    background-color: chocolate;
+    margin: auto;
+    margin-top: 50px;
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    font-size: larger;
+}
+div{
+    display: none;
+    background-color: #00d3ff;
+    height: 100px;
+    width: 300px;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 46px;
+    margin-top: 87px;
+    color: cornsilk;
+}
