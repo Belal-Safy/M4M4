@@ -23,7 +23,7 @@ $(document).ready(function () {
             $("p").animate({
                 top: "-600px"
             }, 1000, () => {
-                $("div").slideDown();
+                $(".down-div").slideDown();
             })
         }, 8000)
 
